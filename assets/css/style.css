@@ -43,6 +43,12 @@ ul,li,ol,a{
       --l:300;
 }
 
+/* ==========REUSABLE========== */
+.pl{
+      padding-left: 5px;
+}
+
+
 /* ==========NAVBAR========== */
 .nav__container{
       width: 100%;
@@ -50,7 +56,7 @@ ul,li,ol,a{
 }
 
 .navbar{
-      width: 90%;
+      width: 95%;
       height: 100%;
       margin: 0 auto;
       display: flex;
@@ -66,7 +72,7 @@ ul,li,ol,a{
       gap: 1.15rem;
       position: absolute;
       top: 0;
-      right: 1540px;
+      right: 1960px;
       width: 100%;
       height: 100%;
       background: var(--d__color);
@@ -148,7 +154,69 @@ ul,li,ol,a{
       transition: .3s ease-in-out;
 }
 /* ==========PRODUCT BANNER========== */
+.banner__container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; */
+}
+
+.banner__box1,.banner__box2{
+      width: 95%;
+}
+
+.banner__box1 > img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+}
+
+.banner__box2{
+      display: flex;
+}
+
+.banner__box2 > img {
+      width: 50%;
+      /* padding: 0px 0px 0px 5px; */
+}
 /* ==========BRAND LOGO========== */
+.brand__container{
+      width: 100%;
+      height: auto;
+}
+
+.logo__container{
+      width: 95%;
+      height: 50px;
+      margin: 16px auto;
+      background: #ffff;
+      border-radius: 5px;
+      overflow-x: scroll;
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      box-shadow: var(--hard__shadow);
+}
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+.logo__container > img {
+      width: auto;
+      height: 30px;
+      padding: 0 10px;
+      opacity: .5;
+      transition: .3s ease-in-out;
+}
+
+.logo__container > img:hover{
+      opacity: 1;
+      transition: .3s ease-in-out;
+}
+
 /* ==========PRODUCT CATEGORY========== */
 /* ==========PRODUCT CARD========== */
 /* ==========BLOG AND NEWS========== */
