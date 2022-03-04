@@ -77,6 +77,7 @@ ul,li,ol,a{
       height: 100%;
       background: var(--d__color);
       transition: .6s ease-in-out;
+      z-index: 10;
 }
 
 .nav__menus.open{
@@ -204,7 +205,7 @@ ul,li,ol,a{
       display: none;
 }
 
-.logo__container > img {
+.logo__container > a > img {
       width: auto;
       height: 30px;
       padding: 0 10px;
@@ -218,6 +219,26 @@ ul,li,ol,a{
 }
 
 /* ==========PRODUCT CATEGORY========== */
+.category__container{
+      width: 100%;
+      height: auto;
+}
+
+.inner__container{
+      width: 95%;
+      height: auto;
+      margin: 32px auto 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+      row-gap: 1.5rem;
+}
+
+.category__box{
+      background: #ffff;
+      border-radius: 5px;
+      box-shadow: var(--normal__shadow);
+}
 /* ==========PRODUCT CARD========== */
 /* ==========BLOG AND NEWS========== */
 /* ==========FOOTER========== */
