@@ -271,6 +271,7 @@ ul,li,ol,a{
       height: 300px;
       border-radius: 5px;
       box-shadow: var(--soft__shadow);
+      cursor: pointer;
 }
 
 .product__card:hover > .card__image > .image__product{
@@ -321,18 +322,23 @@ ul,li,ol,a{
 .like__button{
       position: relative;
       width: 100%;
-      height: 20px;
+      height: 25px;
 }
 
-.like__button > i {
+.like__button > .i {
       position: absolute;
       top: 0;
       right: 0;
-      font-size: var(--h3);
+      width: 25px;
       font-weight: var(--l);
       color: var(--s__color);
       cursor: pointer;
       margin: 8px 8px 0 0;
+      opacity: .5;
+}
+
+.liked{
+      background: red;
 }
 
 .card__text, .product__price{

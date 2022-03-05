@@ -4,6 +4,7 @@ const close = document.querySelector('.close__toggle');
 const navLink = document.querySelectorAll('.nav__link');
 
 
+
 // for open nav__menu
 toggle.onclick = function () {
       menu.classList.add("open");
@@ -29,5 +30,4 @@ toggle.onclick = function () {
       if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
   }
   window.addEventListener('scroll', scrollHeader)
-
 
