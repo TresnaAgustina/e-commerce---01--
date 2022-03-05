@@ -169,7 +169,7 @@ ul,li,ol,a{
       align-items: center;
       /* justify-content: center; */
       margin-top: 100px;
-
+      scroll-margin: 110px;
 }
 
 .banner__box1,.banner__box2{
@@ -261,7 +261,8 @@ ul,li,ol,a{
 .product__container{
       width: 100%;
       height: auto;
-      /* margin-bottom: 32px; */
+      margin-bottom: 32px;
+      scroll-margin: 110px;
 }
 
 .section__title{
@@ -421,15 +422,17 @@ ul,li,ol,a{
       border: 1px solid var(--s__color);
       color: var(--p__color);
       background: var(--d__color);
-      transition: all .3s ease-in-out ;
+      transition: all .3s ease-in-out;
 }
 
 
 
 /* ==========BLOG AND NEWS========== */
+
 .blog__container{
       width: 100%;
       height: 100%;
+      scroll-margin: 110px;
 }
 
 .content__container{
