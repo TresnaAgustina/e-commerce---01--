@@ -207,7 +207,7 @@ ul,li,ol,a{
       display: flex;
       gap: 2rem;
       align-items: center;
-      box-shadow: var(--hard__shadow);
+      box-shadow: var(--normal__shadow);
 }
 
 ::-webkit-scrollbar {
@@ -248,6 +248,9 @@ ul,li,ol,a{
 .category__box{
       background: #ffff;
       border-radius: 5px;
+}
+
+.category__box:hover{
       box-shadow: var(--normal__shadow);
 }
 
@@ -342,7 +345,8 @@ ul,li,ol,a{
       object-fit: cover;
       -moz-user-select: none;
       -webkit-user-select: none;
-      user-select: none
+      user-select: none;
+      transition: all .3s ease-in-out;
 }
 
 .shoes{
