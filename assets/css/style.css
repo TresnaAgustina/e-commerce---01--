@@ -278,7 +278,7 @@ ul,li,ol,a{
 }
 
 .product__card:hover{
-      border: 1px solid var(--s__color);
+      outline: 1px solid var(--s__color);
 }
 
 .product__card:hover > .card__image > .image__product{
