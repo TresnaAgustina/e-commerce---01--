@@ -222,7 +222,7 @@ ul,li,ol,a{
       transition: .3s ease-in-out;
 }
 
-.logo__container > img:hover{
+.logo__container > a > img:hover{
       opacity: 1;
       transition: .3s ease-in-out;
 }
