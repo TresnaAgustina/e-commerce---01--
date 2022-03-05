@@ -274,6 +274,7 @@ ul,li,ol,a{
       border-radius: 5px;
       box-shadow: var(--soft__shadow);
       cursor: pointer;
+      overflow: hidden;
 }
 
 .product__card:hover{
