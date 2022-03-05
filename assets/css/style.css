@@ -273,6 +273,22 @@ ul,li,ol,a{
       box-shadow: var(--soft__shadow);
 }
 
+.product__card:hover > .card__image > .image__product{
+      transform: scale(1.05);
+      transition: .3s ease-in-out;
+}
+
+.product__card:hover > .card__image > .shoes{
+      transform: scale(5);
+      transform: rotate(-10deg);
+}
+
+.product__card:hover .addToCart__button{
+      background: var(--p__color);
+      color: var(--d__color);
+      transition: all .3s ease-in-out;
+}
+
 .card__image{
       width: 100%;
       height: 150px;
@@ -354,9 +370,10 @@ ul,li,ol,a{
       width: 100%;
       padding: 10px 0;
       border-radius: 0 0 5px 5px;
-      border: none;
-      color: var(--d__color);
-      background: var(--p__color);
+      border: 1px solid var(--s__color);
+      color: var(--p__color);
+      background: var(--d__color);
+      transition: all .3s ease-in-out ;
 }
 
 /* .image__background{
