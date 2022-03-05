@@ -473,3 +473,91 @@ ul,li,ol,a{
       margin-top: 6px;
 }
 /* ==========FOOTER========== */
+.footer{
+      width: 100%;
+      margin-top: 62px; 
+      border-top: 1px solid var(--p__color);
+}
+
+.footer__container{
+      width: 95%;
+      margin: 26px auto 0 auto;
+      text-align: center;
+}
+
+.about__us, .customer__care{
+      margin-bottom: 32px;
+}
+
+.about__title, .customer__title, .contact__title{
+      font-size: var(--h4);
+      color: var(--p__color);
+      margin-bottom: 4px;
+}
+
+.sosmed__icon{
+      margin: 8px auto;
+}
+
+.description{
+      font-size: var(--p);
+      color: var(--s__color);
+      font-weight: var(--l);
+      letter-spacing: .5px;
+      margin-bottom: 8px;
+}
+
+.logo__bank:not(:first-child), .social__link:not(:first-child){
+      margin-left: 8px;
+}
+
+.logo__bank{
+      cursor: pointer;
+}
+
+.service{
+      font-size: var(--p);
+      color: var(--s__color);
+      cursor: pointer;
+}
+
+.service:hover{
+      color: var(--p__color);
+      text-decoration: underline;
+}
+
+.service:not(:first-child){
+      margin-top: 8px;
+}
+
+.contact__detail{
+      margin-bottom: 12px;
+}
+
+.contact__detail > h5{
+      font-weight: var(--l);
+      color: var(--s__color);
+}
+
+.contact__detail > h5 > span {
+      font-weight: 700;
+      color: #000;
+}
+
+footer{
+      width: 100%;
+      height: 50px;
+      background: var(--p__color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 18px;
+}
+
+.copyright__info{
+      text-align: center;
+      color: #fff;
+      font-size: var(--h6);
+      font-weight: 200;
+      letter-spacing: 1.5px;
+}
