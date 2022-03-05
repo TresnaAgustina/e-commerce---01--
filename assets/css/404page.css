@@ -6,6 +6,7 @@
 
 body{
       background-color: #1A202C;
+      font-family: metropolis;
 }
 
 .body{
@@ -23,4 +24,5 @@ body{
 .title{
       color: #F23B2E;
       text-align: center;
+      letter-spacing:.1rem;
 }
