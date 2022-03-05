@@ -540,8 +540,8 @@ ul,li,ol,a{
 }
 
 .contact__detail > h5 > span {
-      font-weight: 700;
-      color: #000;
+      font-weight: var(--sb);
+      color: var(--p__color);
 }
 
 footer{
@@ -557,7 +557,7 @@ footer{
 .copyright__info{
       text-align: center;
       color: #fff;
-      font-size: var(--h6);
+      font-size: var(--p);
       font-weight: 200;
-      letter-spacing: 1.5px;
+      letter-spacing: 1px;
 }
