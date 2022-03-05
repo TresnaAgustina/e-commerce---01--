@@ -194,6 +194,7 @@ ul,li,ol,a{
 .brand__container{
       width: 100%;
       height: auto;
+      margin-bottom: 42px;
 }
 
 .logo__container{
@@ -230,6 +231,7 @@ ul,li,ol,a{
 .category__container{
       width: 100%;
       height: auto;
+      margin-bottom: 42px;
 }
 
 .inner__container{
@@ -257,6 +259,21 @@ ul,li,ol,a{
       width: 100%;
       height: auto;
       /* margin-bottom: 32px; */
+}
+
+.section__title{
+      width: 95%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 12px auto;
+}
+
+.tittle__header{
+      color: var(--p__color);
+      font-size: var(--h3);
+      font-weight: var(--sb);
 }
 
 .productCard__container{
