@@ -1,3 +1,4 @@
+@import url("responsive.css");
 /* ==========BASE========== */
 *{
       margin: 0;
@@ -58,7 +59,7 @@ ul,li,ol,a{
       right: 0;
       background: var(--d__color);
       z-index: 11;
-      box-shadow: var(--soft__shadow)
+      box-shadow: var(--soft__shadow);
 }
 
 .navbar{
@@ -129,6 +130,7 @@ ul,li,ol,a{
 .logo > h1{
       font-weight: var(--m);
       font-size: var(--h3);
+      transition: .3s ease-in-out;
 }
 
 .logo > h1 > span{
@@ -248,6 +250,10 @@ ul,li,ol,a{
 .category__box{
       background: #ffff;
       border-radius: 5px;
+      /* border: 1px solid red; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
 .category__box:hover{
@@ -341,7 +347,7 @@ ul,li,ol,a{
 }
 
 .image__product{
-      width: 90%;
+      max-width: 200px;
       height: auto;
       object-fit: cover;
       -moz-user-select: none;

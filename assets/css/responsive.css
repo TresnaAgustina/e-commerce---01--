@@ -1,0 +1,184 @@
+@import url("style.css");
+
+@media screen  and (min-width: 768px) {
+      /* Global */
+      .tittle__header{
+      font-size: var(--h2);
+      }
+
+      .view__button{
+            font-size: var(--h4);
+      }
+      /* ========== NAVBAR ========== */
+      .logo > h1{
+            font-weight: var(--m);
+            font-size: var(--h1);
+      }
+      
+      .logo > h1 > span{
+            font-weight: var(--sb);
+      }
+
+      .nav__link > a, .nav__link > a > i{
+            font-size: var(--h4);
+      }
+
+      .nav__toggle > .bx{
+            font-size: var(--h1);
+      }
+
+      .r__side{
+            gap: 1.5rem;
+      }
+
+      .search__icon > i{
+            font-size: var(--h1);
+      }
+
+      .join{
+            padding: 12px 22px;
+            font-size: var(--h5);
+      }
+
+      /* ========== PRODUCT BANNER ========== */
+      .banner__container{
+            gap: .3rem;
+      }
+
+      /* ========== BRAND LOGO ========== */
+      .logo__container{
+            height: 100px;
+            margin: 30px auto 0 auto;
+
+      }
+
+      .logo__container > a > img{
+            height: 40px;
+      }
+      
+      /* ========== PRODUCT CATEGORY ========== */
+      .category__box{
+            width: 130px;
+            height: 130px;
+            /* border: 1px solid red; */
+      }
+
+      .category__box > a > img{
+            width: 110px;
+      }
+
+      /* ========== PRODUCT CARD ========== */
+      .productCard__container{
+      grid-template-columns: repeat(3, 1fr);
+      }
+
+      .product__name{
+            font-size: var(--h5);
+      }
+      
+      .product__description{
+            font-size: var(--h6);
+      }
+
+      /* ========== BLOG AND NEWS ========== */
+      .content__container{
+            display: flex;
+            gap: 1rem;
+      }
+
+      .blog__descriptionn{
+            font-size: var(--h6);
+            line-height: 20px;
+      }
+
+      /* ========== FOOTER ========== */
+      .footer__container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1.5rem;
+            text-align: unset;
+            /* border: 1px solid red; */
+      }
+
+      .description{
+            font-size: var(--h6);
+            margin-bottom: 12px;
+      }
+
+      .logo__bank:not(:first-child), .social__link:not(:first-child){
+            margin-left: 16px;
+      }
+
+      .logo__bank{
+            width: 40px;
+      }
+
+      .service{
+            font-size: var(--h6);
+      }
+
+      .service:not(:first-child){
+            margin-top: 12px;
+      }
+
+      .contact__detail > h5{
+            font-size: var(--h6);
+      }
+
+      .contact__detail > h5:not(:first-child){
+            margin-top: 8px;
+      }
+      
+      .contact__detail > h5 > span {
+            font-weight: var(--sb);
+      }
+
+      .social__media{
+            display: flex;
+            align-items: center;
+      }
+
+      .sosmed__icon{
+            width: 25px;
+            height: auto;
+      }
+
+      footer{
+            height: 70px;
+      }
+      
+      .copyright__info{
+            font-size: var(--h6);
+      }
+}     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1240px){
+      .productCard__container{
+            grid-template-columns: repeat(4, 1fr);
+            }
+}
+
+
+@media screen and (min-width:1440px){
+      .productCard__container{
+            grid-template-columns: repeat(6, 1fr);
+            }
+}
