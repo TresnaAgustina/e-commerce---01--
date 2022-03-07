@@ -44,11 +44,6 @@ ul,li,ol,a{
       --l:300;
 }
 
-/* ==========REUSABLE========== */
-.pl{
-      padding-left: 5px;
-}
-
 
 /* ==========NAVBAR========== */
 .nav__container{
@@ -169,29 +164,39 @@ ul,li,ol,a{
       display: flex;
       flex-direction: column;
       align-items: center;
-      /* justify-content: center; */
+      justify-content: center;
       margin-top: 100px;
       scroll-margin: 110px;
 }
 
-.banner__box1,.banner__box2{
+.banner__inner-container{
       width: 95%;
+      display:inherit;
+      flex-direction: column;
 }
 
-.banner__box1 > img {
+.banner__group{
+      width: 100%;
+      height: auto;
+      display: flex;
+}
+
+.main__banner{
       width: 100%;
       height: auto;
       object-fit: cover;
 }
 
-.banner__box2{
-      display: flex;
+.secondary__banner.pl{
+      padding-left: 5px;
 }
 
-.banner__box2 > img {
-      width: 50%;
-      /* padding: 0px 0px 0px 5px; */
+.box__1 > img, .box__2 > img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
 }
+
 /* ==========BRAND LOGO========== */
 .brand__container{
       width: 100%;

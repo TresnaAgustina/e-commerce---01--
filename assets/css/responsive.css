@@ -41,19 +41,19 @@
       }
 
       /* ========== PRODUCT BANNER ========== */
-      .banner__container{
-            gap: .3rem;
-      }
+      /* .banner__inner-container{
+            gap: 3rem;
+      } */
 
       /* ========== BRAND LOGO ========== */
       .logo__container{
-            height: 100px;
+            height: 70px;
             margin: 30px auto 0 auto;
 
       }
 
       .logo__container > a > img{
-            height: 40px;
+            height: 30px;
       }
       
       /* ========== PRODUCT CATEGORY ========== */
@@ -154,6 +154,33 @@
 
 
 
+@media screen and (min-width:800px){
+      .banner__inner-container{
+            flex-direction: row;
+            justify-content:center;
+            gap: .5rem;
+            align-items: center;
+      }
+
+      .banner__box1{
+            width: 75%;
+      }
+
+      .banner__group{
+            width: 55%;
+            height: 100%;
+            flex-direction: column;
+            gap: .5rem;
+            justify-content:space-evenly;
+      }
+
+      .box__1 > img, .box__2 > img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+      }
+      
+}
 
 
 
@@ -171,14 +198,44 @@
 
 
 @media screen and (min-width:1240px){
+
+      body{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .nav__container{
+            right: unset;
+      }
+      .footer__container, .navbar, .banner__container, .brand__container, .category__container, .product__container, .blog__container{
+            width: 70%;
+            
+      }
+
+      .footer{
+            width: 100%;
+            display: grid;
+            place-content: center;
+            place-items: center;
+      }
+
+      .footer__container{
+            grid-template-columns: repeat(3, 1fr);
+            gap: .5rem;
+      }      
+
+
       .productCard__container{
             grid-template-columns: repeat(4, 1fr);
-            }
+      }
 }
 
 
 @media screen and (min-width:1440px){
+      
       .productCard__container{
             grid-template-columns: repeat(6, 1fr);
-            }
+      }
 }
